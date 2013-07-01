@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>js_game</title>
+<script src="game.js"> </script>
+</head>
+<body>
+hello world
+<form action="#">
+<div id="init_qs">
+What is your name:  <input type="text" id="name_val" value="name"> </input>
+<br>
+What is your quest: <input type="text" id="quest_val" value="quest"> </input>
+<br>
+What is your favorite color: <input type="color" id="color_val"> </input>
+</div>
+<canvas id="board" width="200" height="20"
+style="border:1px solid #000000;">
+</canvas>
+<button value="step" id="step_button" onclick="afStep.step();" > step</button>
+</form>
+<div id="main_output">
+Fill in the fields and click step to begin.
+</div>
+</body>
+</html>
